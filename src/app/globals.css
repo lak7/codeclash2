@@ -3,8 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --primary: #8a2be2;
+  --primary-light: #9d4edd;
+  --primary-dark: #6a0dad;
+  --accent: #ff00ff;
+  --glow: 0 0 10px rgba(138, 43, 226, 0.5), 0 0 20px rgba(138, 43, 226, 0.3),
+    0 0 30px rgba(138, 43, 226, 0.1);
+  --glow-strong: 0 0 15px rgba(138, 43, 226, 0.7),
+    0 0 30px rgba(138, 43, 226, 0.5), 0 0 45px rgba(138, 43, 226, 0.3);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,10 +26,61 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .text-glow {
+    text-shadow: var(--glow);
+  }
+
+  .text-glow-strong {
+    text-shadow: var(--glow-strong);
+  }
+
+  .box-glow {
+    box-shadow: var(--glow);
+  }
+
+  .box-glow-strong {
+    box-shadow: var(--glow-strong);
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-light via-primary to-primary-dark;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
   }
 }

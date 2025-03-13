@@ -11,6 +11,19 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        "primary-light": "var(--primary-light)",
+        "primary-dark": "var(--primary-dark)",
+        accent: "var(--accent)",
+      },
+      animation: {
+        "spin-slow": "spin 8s linear infinite",
+        "bounce-slow": "bounce 3s infinite",
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
