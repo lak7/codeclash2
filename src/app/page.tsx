@@ -214,72 +214,29 @@ export default function Home() {
           <h1 className="text-6xl md:text-8xl font-black mb-8 tracking-tight relative">
             <span className="absolute -inset-x-8 -inset-y-4 bg-purple-500/10 blur-xl rounded-3xl"></span>
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-purple-600 relative drop-shadow-[0_0_8px_rgba(168,85,247,0.7)]">
-              CodeClash
-            </span>
-            <span className="text-white relative drop-shadow-[0_0_3px_rgba(255,255,255,0.7)]">
-              {" "}
-              2.0
+              CodeClash 2.0
             </span>
           </h1>
-          <p className="text-2xl md:text-3xl mb-12 max-w-3xl mx-auto text-white/90 font-light leading-relaxed">
-            An exhilarating 24-hour hackathon experience that merges innovation
-            with determination!
+          <p className="text-2xl md:text-3xl text-justify mb-12 max-w-3xl mx-auto text-white/90 font-light leading-relaxed">
+            CodeClash is back with its second edition, promising bigger
+            challenges, better rewards, and an electrifying hackathon
+            experience! Whether you're a seasoned developer, an aspiring
+            innovator, or a problem-solver looking to build impactful
+            solutions—this is your battlefield to showcase your skills.
           </p>
-
-          {/* Enhanced visual card with "Coming Soon" */}
           <div className="relative w-full max-w-2xl mx-auto h-44 mb-16 group">
-            {/* Enhanced glow effects */}
             <div className="absolute -inset-4 bg-gradient-to-r from-purple-900/50 via-purple-600/30 to-purple-900/50 rounded-[2rem] blur-2xl opacity-80 animate-pulse-slow"></div>
             <div className="absolute inset-0 rounded-3xl overflow-hidden">
               <div className="absolute inset-0 bg-black/80 backdrop-blur-xl rounded-3xl border border-purple-500/50 group-hover:border-purple-500/70 transition-all duration-500"></div>
-
-              {/* Enhanced glowing orbs */}
-              <div className="absolute top-0 right-0 w-80 h-80 bg-purple-600/40 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/4 opacity-70 mix-blend-screen"></div>
-              <div className="absolute bottom-0 left-0 w-80 h-80 bg-purple-800/40 rounded-full blur-[100px] translate-y-1/2 -translate-x-1/4 opacity-70 mix-blend-screen"></div>
-
-              {/* Enhanced animated grid */}
-              <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoNDB2NDBoLTQweiIvPjxwYXRoIGQ9Ik00MCAyMGgtNDBtMjAtMjB2NDAiIHN0cm9rZT0icmdiYSgxNjgsMTI2LDI1NSwwLjA3KSIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIvPjwvZz48L3N2Zz4=')] opacity-30"></div>
-
-              {/* Animated Squid Game shapes with enhanced glow */}
-              <div className="absolute top-1/4 left-8 w-12 h-12 border-[3px] border-purple-500/80 rounded-full opacity-80 animate-pulse-slow">
-                <div className="absolute inset-0 bg-purple-500/30 rounded-full blur-xl"></div>
-              </div>
-              <div
-                className="absolute bottom-1/4 right-8 w-12 h-12 border-[3px] border-purple-500/80 opacity-80 animate-float-slow"
-                style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
-              >
-                <div
-                  className="absolute inset-0 bg-purple-500/30 blur-xl"
-                  style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
-                ></div>
-              </div>
-              <div
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-14 h-14 border-[3px] border-purple-500/80 opacity-80 animate-spin-slow"
-                style={{
-                  clipPath:
-                    "polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)",
-                  animationDuration: "20s",
-                }}
-              >
-                <div
-                  className="absolute inset-0 bg-purple-500/30 blur-xl"
-                  style={{
-                    clipPath:
-                      "polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)",
-                  }}
-                ></div>
-              </div>
-            </div>
-
-            {/* "Coming Soon" text with enhanced typography and glow */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="relative group-hover:scale-105 transition-transform duration-500">
-                <div className="absolute -inset-6 bg-purple-500/30 blur-2xl rounded-full opacity-70 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <p className="text-5xl font-black text-white relative">
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-200 to-purple-500 animate-shimmer relative drop-shadow-[0_0_10px_rgba(168,85,247,0.9)]">
-                    Coming Soon
-                  </span>
-                </p>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="relative group-hover:scale-105 transition-transform duration-500">
+                  <div className="absolute -inset-6 bg-purple-500/30 blur-2xl rounded-full opacity-70 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <p className="text-5xl font-black text-white relative">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-200 to-purple-500 animate-shimmer relative drop-shadow-[0_0_10px_rgba(168,85,247,0.9)]">
+                      Coming Soon
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -313,29 +270,30 @@ export default function Home() {
           <div className="bg-black/70 backdrop-blur-lg p-10 md:p-12 rounded-3xl border border-purple-500/30 shadow-xl shadow-purple-500/10 mb-20 transform transition-all hover:shadow-purple-500/20 relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 rounded-3xl"></div>
             <p className="text-lg md:text-xl leading-relaxed mb-8 text-white/90">
-              "CodeClash is an exhilarating 24-hour hackathon experience that
-              merges innovation with determination! Mark your calendars for
-              April 19th-20th and prepare yourself, tech enthusiasts, for a
-              coding extravaganza designed to ignite your passion and test your
-              skills like never before. Dive into a marathon of coding,
-              collaboration, and creativity at this ultimate hackathon event.
-              Join us at Bharati vidyapeeth college of engineering for an
-              adrenaline fueled adventure where ideas transform into reality and
-              dreams into achievements. Unleash your coding genius, compete with
-              the best, and let every keystroke bring you closer to victory.
-              This is more than just a hackathon; it's a journey of discovery,
-              collaboration, and celebration of the coding spirit. Join us and
-              be part of something extraordinary!"
+              🗓 Event Details 📅 Dates: April 19th-20th, 2025 📍 Venue: (To be
+              announced) ⏳ Duration: 24 Hours of Hacking 👨‍💻 Who Can
+              Participate? Open to students and tech enthusiasts of all
+              backgrounds
             </p>
             <p className="text-lg md:text-xl leading-relaxed text-white/90">
-              Participants at Code Clash will have the chance to demonstrate
-              their abilities, gain insights from industry leaders, and build
-              enduring relationships within the dynamic tech community.
+              ————————🔥 What's New in CodeClash 2.0?——————————— 💡 Hack Your
+              Way to Glory This is not just a coding competition—it's an
+              experience! You'll have 24 hours to brainstorm, build, and present
+              innovative solutions based on real-world problem statements.
+              Whether you want to revolutionize industries with AI, disrupt
+              finance with blockchain, or solve global challenges—this is your
+              chance to make it happen. 🔍 Themed Tracks & Open Innovation This
+              year, we are bringing a mix of structured themes and open
+              innovation to give you the freedom to create: 🧠 AI & Machine
+              Learning – Build smarter, data-driven applications. 🔗 Blockchain
+              & Web3 – Work on decentralized solutions for the future. 🌎
+              Sustainability & Social Impact – Use tech to drive change. 🌟
+              Wildcard/Open Innovation – Any groundbreaking idea is welcome!
             </p>
           </div>
 
           <h3 className="text-3xl md:text-4xl font-bold mb-16 text-center text-white">
-            What participants can{" "}
+            What participants can
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-purple-600 drop-shadow-[0_0_2px_rgba(168,85,247,0.5)]">
               expect
             </span>
@@ -351,15 +309,13 @@ export default function Home() {
                   </span>
                 </div>
                 <h4 className="text-2xl font-bold text-white group-hover:text-purple-300 transition-colors duration-300">
-                  Expert Mentorship
+                  Bigger & Better Prizes
                 </h4>
               </div>
               <p className="text-white/80 leading-relaxed ml-2">
-                Distinguished mentors will offer guidance to participants,
-                helping them acquire valuable problem-solving skills and
-                navigate technical challenges throughout the event. Our mentors
-                come from diverse technical backgrounds to support all aspects
-                of your project.
+                The best projects will win exciting prizes, exclusive goodies,
+                and recognition from industry experts. Stay tuned for prize
+                details!
               </p>
             </div>
 
@@ -372,15 +328,13 @@ export default function Home() {
                   </span>
                 </div>
                 <h4 className="text-2xl font-bold text-white group-hover:text-purple-300 transition-colors duration-300">
-                  Engaging Experience
+                  Industry Mentors & Expert Guidance
                 </h4>
               </div>
               <p className="text-white/80 leading-relaxed ml-2">
-                The event promises engaging activities, delightful cuisine, and
-                intellectual stimulation throughout. Additionally, participants
-                can enjoy exclusive perks during the event designed to enhance
-                creativity and foster a competitive yet collaborative
-                atmosphere.
+                Struggling with an idea? Need help debugging your code? Our team
+                of mentors will be available throughout the hackathon to guide
+                you and help you refine your project.
               </p>
             </div>
           </div>
@@ -432,40 +386,33 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Prize Pool and Goodies",
-                description:
-                  "Exciting prize pool with goodies and swags for winners and participants.",
-                icon: "🏆",
+                title: "Hack for 24 hours",
+                description: "Non-stop innovation, brainstorming, and coding.",
+                icon: "⏳",
               },
               {
-                title: "Participation Certificates",
+                title: "Exclusive Swag",
                 description:
-                  "Each participant will be awarded a certificate of participation. Winners receive special recognition certificates!",
-                icon: "📜",
-              },
-              {
-                title: "Mentorship and Guidance",
-                description:
-                  "Seasoned mentors offer invaluable guidance, fostering an environment where every individual can enhance their skills.",
-                icon: "👨‍🏫",
-              },
-              {
-                title: "Fun and Surprise Gifts",
-                description:
-                  "Throughout the event, participants can look forward to exciting surprises and gifts, enhancing the fun and anticipation.",
-                icon: "��",
-              },
-              {
-                title: "Complimentary Refreshments",
-                description:
-                  "Indulge in a culinary journey of energy and motivation with complimentary food and refreshments throughout the hackathon.",
-                icon: "🍕",
+                  "Get certificates, event merchandise, and exciting goodies!",
+                icon: "🎁",
               },
               {
                 title: "Networking Opportunities",
                 description:
-                  "Connect with like-minded individuals, industry professionals, and potential collaborators for future projects.",
-                icon: "��",
+                  "Meet fellow developers, industry leaders, and potential future teammates.",
+                icon: "🤝",
+              },
+              {
+                title: "Hands-on Learning",
+                description:
+                  "Work with the latest technologies and industry-relevant problem statements.",
+                icon: "🛠",
+              },
+              {
+                title: "Internship & Job Opportunities",
+                description:
+                  "Stand a chance to be noticed by top recruiters and companies.",
+                icon: "💼",
               },
             ].map((perk, index) => (
               <div
@@ -579,12 +526,8 @@ export default function Home() {
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-purple-600 drop-shadow-[0_0_2px_rgba(168,85,247,0.5)]">
                     CodeClash 2.0
                   </span>
-                  <span className="text-white"> By DSC BVP</span>
                 </h2>
               </div>
-              <p className="text-white/70 mt-3 ml-14">
-                Venue: Bharati Vidyapeeth College of Engineering, New Delhi
-              </p>
             </div>
 
             <div className="flex space-x-6">
@@ -643,10 +586,6 @@ export default function Home() {
 
           <div className="text-center text-white/50 text-sm relative">
             <div className="absolute left-1/2 -translate-x-1/2 -top-4 w-24 h-[1px] bg-gradient-to-r from-transparent via-purple-500/50 to-transparent"></div>
-            <p>
-              Made with <span className="text-purple-400">❤️</span> by the DSC
-              Tech Team!
-            </p>
           </div>
         </div>
       </footer>
