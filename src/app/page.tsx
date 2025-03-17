@@ -45,7 +45,7 @@ export default function Home() {
             <div className="flex flex-wrap justify-center gap-4 pt-4">
               <div className="flex items-center gap-2 bg-purple-900/50 px-4 py-2 rounded-full backdrop-blur-sm border border-purple-500/30 glow-border">
                 <Clock className="h-5 w-5 text-purple-300" />
-                <span>April 19-20, 2025</span>
+                <span>April 26-27, 2025</span>
               </div>
               <div className="flex items-center gap-2 bg-purple-900/50 px-4 py-2 rounded-full backdrop-blur-sm border border-purple-500/30 glow-border">
                 <Code className="h-5 w-5 text-purple-300" />
@@ -101,7 +101,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-2 text-purple-200 group-hover:text-gradient-animated">
                   Dates
                 </h3>
-                <p className="text-gray-300">April 19th-20th, 2025</p>
+                <p className="text-gray-300">April 26th-27th, 2025</p>
               </div>
 
               <div className="bg-purple-900/20 p-6 rounded-xl border border-purple-800/50 hover:border-purple-600/50 transition-all backdrop-blur-sm glow-border hover:glow-border-intense group hover:-translate-y-1 duration-300">
